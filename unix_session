@@ -276,4 +276,54 @@ cat: ne: No such file or directory
   5 test_file_2.txt
  15 total
 ]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
-[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git add .
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git commit -am "pipes done"
+[master cdffe89] pipes done
+ 5 files changed, 163 insertions(+), 1 deletion(-)
+ create mode 100644 length.txt
+ create mode 100644 new_file_length.txt
+ create mode 100644 sorted_length.txt
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git log
+[?1h=[33mcommit cdffe8957a7ebae6b71a87cb3d7b61eff8d1d22e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Aman <aman.sharma@tigeranalytics.com>[m
+Date:   Thu Mar 24 17:08:07 2022 +0530[m
+[m
+    pipes done[m
+[m
+[33mcommit ababcd9174355b5dbc462aef0ecc2c320a774ee1[m[m
+Author: Aman <aman.sharma@tigeranalytics.com>[m
+Date:   Thu Mar 24 16:50:34 2022 +0530[m
+[m
+    working with files & directory done[m
+[K[?1l>]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ ls
+[0m[01;32mdraft_copy.txt[0m  [01;32mlength.txt[0m  [01;32mnew_file_length.txt[0m  [01;32msorted_length.txt[0m  [01;32mtest_file_2.txt[0m  [34;42mthesis[0m  [01;32munix_session[0m
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ for i in draft_copy.txt new_file_length.txt sorted_length.txt 
+> do
+> head -n 2 $i | tail -n 1
+> done
+it will (probably) use your current working directory as its default location. 
+  3 length.txt
+  4 draft_copy.txt
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ for i in 0 1 2 3
+> do 
+> echo $i
+> done
+0
+1
+2
+3
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ for i in *.txt
+> do 
+> ls -a $i
+> done
+[0m[01;32mdraft_copy.txt[0m
+[0m[01;32mlength.txt[0m
+[0m[01;32mnew_file_length.txt[0m
+[0m[01;32msorted_length.txt[0m
+[0m[01;32mtest_file_2.txt[0m
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ fro [K[K[Kor data in *.txt
+> do 
+> cat $data [K >> all_data.txt
+> done
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$

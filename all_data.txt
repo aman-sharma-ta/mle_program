@@ -1,0 +1,21 @@
+No matter what editor you use, you will need to know where it searches for and saves files. If you start it from the shell, 
+it will (probably) use your current working directory as its default location. 
+If you use your computer’s start menu, it may want to save files in your desktop or documents directory instead. 
+You can change this by navigating to another directory the first time you ‘Save As…’
+  4 draft_copy.txt
+  0 test_file_2.txt
+  4 total
+  0 new_file_length.txt
+  3 length.txt
+  3 sorted_length.txt
+  4 draft_copy.txt
+  5 test_file_2.txt
+ 15 total
+  0 test_file_2.txt
+  4 draft_copy.txt
+  4 total
+hello hi
+destroy the creation
+  0 test_file_2.txt
+  4 draft_copy.txt
+  4 total
