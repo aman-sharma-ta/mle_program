@@ -368,4 +368,280 @@ destroy the creation
 [?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;78H(B[0;7m[ Reading... ](B[m[42;77H(B[0;7m[ Read 4 lines ](B[m[H(B[0;7m  GNU nano 4.8                                                                   middle.sh                                                                              [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m[32mfor[39m(B[m i [32min[39m(B[m  *.txt[3d[32mdo[4d(B[0;1m[34mhead[35m -n[39m(B[m 2 (B[0;1m[31m$i[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 1[5d[32mdone[2d[39m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2dor[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25ln[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l*.txt[K[?12l[?25h[?25l.txt[K[?12l[?25h[?25ltxt[K[?12l[?25h[?25lxt[K[?12l[?25h[?25lt[K[?12l[?25h[?25l[K[?12l[?25h[?25l[2;41r[41;1H
 [1;44r[2;1H[?12l[?25h[?25lo[K[?12l[?25h[?25l[K[?12l[?25h[?25l[2;41r[41;1H
 [1;44r[2;1H[?12l[?25h[?25lead[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l-n[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[42d[K[2d[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25li[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lail(B[0;1m[35m -n[39m(B[m 1[K[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m 1[K[?12l[?25h[?25l-n 1[K[?12l[?25h[?25ln 1[K[?12l[?25h[?25l 1[K[?12l[?25h[?25l1[K[?12l[?25h[?25l[K[?12l[?25h[?25l[2;42r[42;1H
-[1;44r[2;1H[?12l[?25h[?25lone[K[?12l[?25h[?25lne[K[?12l[?25h[?25le[K[?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[36m#[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m s[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[36ml[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[36mc[39m(B[m[?12l[?25h[?25l[36mt[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m l[39m(B[m[?12l[?25h[?25l[36mi[39m(B[m[?12l[?25h[?25l[36mn[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[36ms[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m f[39m(B[m[?12l[?25h[?25l[36mr[39m(B[m[?12l[?25h[?25l[36mo[39m(B[m[?12l[?25h[?25l[36mm[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m t[39m(B[m[?12l[?25h[?25l[36mh[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m m[39m(B[m[?12l[?25h[?25l[36mi[39m(B[m[?12l[?25h[?25l[36md[39m(B[m[?12l[?25h[?25l[36md[39m(B[m[?12l[?25h[?25l[36ml[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m o[39m(B[m[?12l[?25h[?25l[36mf[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m a[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m l[39m(B[m[?12l[?25h[?25l[36mi[39m(B[m[?12l[?25h[?25l[36mn[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[36m.[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mhead[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l(B[0;1m[33m""[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[33m$"[39m(B[m[?12l[?25h[?25l(B[0;1m[33m1"[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m|[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l t[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25l(B[0;1m[34mtail[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l(B[0;1m[33m""[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[33m$"[39m(B[m[?12l[?25h[?25l(B[0;1m[33m2"[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[4d[?12l[?25h[?25l[3;28H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l  [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$2"[3;14H[39m(B[m[?12l[?25h[?25l(B[0;1m[33m" | tail -n "[31m$2[39m(B[m"[3;15H[?12l[?25h[?25l(B[0;1m[33m"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$2"[3;16H[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[33m$"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$2"[3;16H[39m(B[m[?12l[?25h[?25l(B[0;1m[33m2"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$2"[3;17H[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[33m"[39m(B[m[K[?12l[?25h[?25l(B[0;1m[33m3"[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[4d[?12l[?25h[?25l[43;17H[26X[43;43H(B[0;7mM-D(B[m DOS Format[18X[43;81H    (B[0;7mM-A(B[m Append          [43;113H[14X[43;127H(B[0;7mM-B(B[m Backup File[K[44;2H(B[0;7mC(B[m Cancel[17G[26X[44;43H(B[0;7mM-M(B[m Mac Format[28X[44;85H(B[0;7mM-P(B[m Prepend         [44;113H[14X[44;127H(B[0;7m^T(B[m To Files[K[42d(B[0;7mFile Name to Write: middle.sh                                                                                                                                           [42;1H(B[m[42;30H[?12l[?25h[?25l[42;30H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;76H(B[0;7m[ Wrote 3 lines ](B[m[43;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[4d[?12l[?25h[?25l[42d[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:
+[1;44r[2;1H[?12l[?25h[?25lone[K[?12l[?25h[?25lne[K[?12l[?25h[?25le[K[?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[36m#[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m s[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[36ml[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[36mc[39m(B[m[?12l[?25h[?25l[36mt[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m l[39m(B[m[?12l[?25h[?25l[36mi[39m(B[m[?12l[?25h[?25l[36mn[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[36ms[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m f[39m(B[m[?12l[?25h[?25l[36mr[39m(B[m[?12l[?25h[?25l[36mo[39m(B[m[?12l[?25h[?25l[36mm[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m t[39m(B[m[?12l[?25h[?25l[36mh[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m m[39m(B[m[?12l[?25h[?25l[36mi[39m(B[m[?12l[?25h[?25l[36md[39m(B[m[?12l[?25h[?25l[36md[39m(B[m[?12l[?25h[?25l[36ml[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m o[39m(B[m[?12l[?25h[?25l[36mf[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m a[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m l[39m(B[m[?12l[?25h[?25l[36mi[39m(B[m[?12l[?25h[?25l[36mn[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[36m.[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mhead[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l(B[0;1m[33m""[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[33m$"[39m(B[m[?12l[?25h[?25l(B[0;1m[33m1"[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m|[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l t[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25l(B[0;1m[34mtail[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l(B[0;1m[33m""[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[33m$"[39m(B[m[?12l[?25h[?25l(B[0;1m[33m2"[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[4d[?12l[?25h[?25l[3;28H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l  [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$2"[3;14H[39m(B[m[?12l[?25h[?25l(B[0;1m[33m" | tail -n "[31m$2[39m(B[m"[3;15H[?12l[?25h[?25l(B[0;1m[33m"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$2"[3;16H[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[33m$"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$2"[3;16H[39m(B[m[?12l[?25h[?25l(B[0;1m[33m2"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$2"[3;17H[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[33m"[39m(B[m[K[?12l[?25h[?25l(B[0;1m[33m3"[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[4d[?12l[?25h[?25l[43;17H[26X[43;43H(B[0;7mM-D(B[m DOS Format[18X[43;81H    (B[0;7mM-A(B[m Append          [43;113H[14X[43;127H(B[0;7mM-B(B[m Backup File[K[44;2H(B[0;7mC(B[m Cancel[17G[26X[44;43H(B[0;7mM-M(B[m Mac Format[28X[44;85H(B[0;7mM-P(B[m Prepend         [44;113H[14X[44;127H(B[0;7m^T(B[m To Files[K[42d(B[0;7mFile Name to Write: middle.sh                                                                                                                                           [42;1H(B[m[42;30H[?12l[?25h[?25l[42;30H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;76H(B[0;7m[ Wrote 3 lines ](B[m[43;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[4d[?12l[?25h[?25l[42d[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ bash middle.sh 6 new_file_length.txt 3
+  4 draft_copy.txt
+  5 test_file_2.txt
+ 15 total
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git add.[K .
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git commit -m ""s"h"e"l"l" "s"c"r"i"p"t"i"n"g" "d"o"n"e"
+[master 98a5c5f] shell scripting done
+ 2 files changed, 46 insertions(+), 1 deletion(-)
+ create mode 100644 middle.sh
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ ls
+[0m[01;32mall_data.txt[0m  [01;32mdraft_copy.txt[0m  [01;32mlength.txt[0m  [01;32mmiddle.sh[0m  [01;32mnew_file_length.txt[0m  [01;32msorted_length.txt[0m  [01;32mtest_file_2.txt[0m  [34;42mthesis[0m  [01;32munix_session[0m
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep "of" draft_copy.txt 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat [K[K[K[Kecho draft_copy.txt 
+draft_copy.txt
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat f[Kdraft_copy.txt 
+No matter what editor you use, you will need to know where it searches for and saves files. If you start it from the shell, 
+it will (probably) use your current working directory as its default location. 
+If you use your computer’s start menu, it may want to save files in your desktop or documents directory instead. 
+You can change this by navigating to another directory the first time you ‘Save As…’
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat draft_copy.txt [1@echo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@grep "of"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@t[C[1@o[1P[1P
+No matter what edi[01;31m[Kto[m[Kr you use, you will need [01;31m[Kto[m[K know where it searches for and saves files. If you start it from the shell, 
+it will (probably) use your current working direc[01;31m[Kto[m[Kry as its default location. 
+If you use your computer’s start menu, it may want [01;31m[Kto[m[K save files in your desk[01;31m[Kto[m[Kp or documents direc[01;31m[Kto[m[Kry instead. 
+You can change this by navigating [01;31m[Kto[m[K another direc[01;31m[Kto[m[Kry the first time you ‘Save As…’
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep "to" draft_copy.txt [C[C[C[C[1@ [1@-[1@w
+No matter what editor you use, you will need [01;31m[Kto[m[K know where it searches for and saves files. If you start it from the shell, 
+If you use your computer’s start menu, it may want [01;31m[Kto[m[K save files in your desktop or documents directory instead. 
+You can change this by navigating [01;31m[Kto[m[K another directory the first time you ‘Save As…’
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep -v to draft_copy.txt 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep -v to draft_copy.txt [1@"[C[C[1@"[C[1@ 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep "save" draft_copy.txt 
+No matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+If you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep "save" draft_copy.txt [C[C[C[C[C[1@ [1@-[1@w
+If you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep -r "save" fr[K[Kdraft_copy.txt 
+No matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+If you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep -r "save" draft_copy.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P 
+[35m[Kall_data.txt[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+[35m[Kall_data.txt[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+[35m[Kdraft_copy.txt[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+[35m[Kdraft_copy.txt[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+[35m[Kthesis/draft.txt[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+[35m[Kthesis/draft.txt[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+[35m[Kunix_session[m[K[36m[K:[m[K[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                   draft.txt                                                                              [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[1;159H(B[0;7mModified[42d(B[m[K[1;167H[2d(B[0;7m<(B[man change this by navigating to another directory the first time you ‘Save As…’[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[Corking directory as its default location. If you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. You can cha(B[0;7m>[2;166H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lf[?12l[?25h[?25la[?12l[?25h[?25lu[?12l[?25h[?25ll[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l.[?12l[?25h[?25l [?12l[?25h[?25lNo matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, it will (probably) use your current working[3dIf you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. You can change this by navigating to another directory(B[0;7m>[3;1H(B[m[?12l[?25h[?25l[A(B[0;7m<(B[morking directory as its default location.[K [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lNo matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, it will (probably) use your current working(B[0;7m>[2;166H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25l,[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l[?12l[?25h[?25l7[3;42r8[3dM[1;44r[2;125H[K[3dit will (probably) use your current working directory as its default location.[?12l[?25h[?25l[4d[?12l[?25h[?25lIf [?12l[?25h[?25lyou [?12l[?25h[?25luse [?12l[?25h[?25l[17G[?12l[?25h[?25l[4;26H[?12l[?25h[?25ls [?12l[?25h[?25l[34G[?12l[?25h[?25l[40G[?12l[?25h[?25lit [?12l[?25h[?25lmay [?12l[?25h[?25l[52G[?12l[?25h[?25lto [?12l[?25h[?25l[60G[?12l[?25h[?25l[66G[?12l[?25h[?25lin [?12l[?25h[?25l[74G[?12l[?25h[?25l[4;82H[?12l[?25h[?25lor [?12l[?25h[?25l[4;95H[?12l[?25h[?25l[4;105H[?12l[?25h[?25l[4;114H[?12l[?25h[?25lYou [?12l[?25h[?25lcan [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[K[5dYou can change this by navigating to another directory the first time you ‘Save As…’[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[43;17H[26X[43;43H(B[0;7mM-D(B[m DOS Format[18X[43;81H    (B[0;7mM-A(B[m Append          [43;113H[14X[43;127H(B[0;7mM-B(B[m Backup File[K[44;2H(B[0;7mC(B[m Cancel[17G[26X[44;43H(B[0;7mM-M(B[m Mac Format[28X[44;85H(B[0;7mM-P(B[m Prepend         [44;113H[14X[44;127H(B[0;7m^T(B[m To Files[K[42d(B[0;7mFile Name to Write: draft.txt                                                                                                                                           [42;1H(B[m[42;30H[?12l[?25h[?25l[42;30H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;76H(B[0;7m[ Wrote 4 lines ](B[m[43;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[5d[?12l[?25h[?25l[42d[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;aman-sharma@TIGER02413: /mnt/d/mle_program/thesis[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program/thesis[00m$ touch draft.txt 
+[35m[Kunix_session[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+[35m[Kunix_session[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+[35m[Kunix_session[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+[35m[Kunix_session[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+[35m[Kunix_session[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+[35m[Kunix_session[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+[35m[Kunix_session[m[K[36m[K:[m[KNo matter what edi[01;31m[Kto[m[Kr you use, you will need [01;31m[Kto[m[K know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+[35m[Kunix_session[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want [01;31m[Kto[m[K [01;31m[Ksave[m[K files in your desk[01;31m[Kto[m[Kp or documents direc[01;31m[Kto[m[Kry instead. 
+[35m[Kunix_session[m[K[36m[K:[m[KNo matter what editor you use, you will need [01;31m[Kto[m[K know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+[35m[Kunix_session[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want [01;31m[Kto[m[K [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+[35m[Kunix_session[m[K[36m[K:[m[K]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep "[01;31m[Ksave[m[K" draft_copy.txt 
+[35m[Kunix_session[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[K[01;31m[Ksave[m[K[m[Ks files. If you start it from the shell, 
+[35m[Kunix_session[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[K[01;31m[Ksave[m[K[m[K files in your desktop or documents directory instead. 
+[35m[Kunix_session[m[K[36m[K:[m[K]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep "[01;31m[Ksave[m[K" draft_copy.txt [C[C[C[C[C[1@ [1@-[1@w
+[35m[Kunix_session[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[K[01;31m[Ksave[m[K[m[K files in your desktop or documents directory instead. 
+[35m[Kunix_session[m[K[36m[K:[m[K]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep -r "[01;31m[Ksave[m[K" fr[K[Kdraft_copy.txt 
+[35m[Kunix_session[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[K[01;31m[Ksave[m[K[m[Ks files. If you start it from the shell, 
+[35m[Kunix_session[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[K[01;31m[Ksave[m[K[m[K files in your desktop or documents directory instead. 
+[35m[Kunix_session[m[K[36m[K:[m[K]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep -r "[01;31m[Ksave[m[K" draft_copy.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P 
+[35m[Kunix_session[m[K[36m[K:[m[K[35m[Kall_data.txt[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[K[01;31m[Ksave[m[K[m[Ks files. If you start it from the shell, 
+[35m[Kunix_session[m[K[36m[K:[m[K[35m[Kall_data.txt[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[K[01;31m[Ksave[m[K[m[K files in your desktop or documents directory instead. 
+[35m[Kunix_session[m[K[36m[K:[m[K[35m[Kdraft_copy.txt[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[K[01;31m[Ksave[m[K[m[Ks files. If you start it from the shell, 
+[35m[Kunix_session[m[K[36m[K:[m[K[35m[Kdraft_copy.txt[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[K[01;31m[Ksave[m[K[m[K files in your desktop or documents directory instead. 
+[35m[Kunix_session[m[K[36m[K:[m[K[35m[Kthesis/draft.txt[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[K[01;31m[Ksave[m[K[m[Ks files. If you start it from the shell, 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cleargrep -r "save"  draft_copy.txt [1P[1@i
+No matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+If you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+You can change this by navigating to another directory the first time you ‘[01;31m[KSave[m[K As…’
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ grep -i "save" draft_copy.txt [1P[1@n
+[32m[K1[m[K[36m[K:[m[KNo matter what editor you use, you will need to know where it searches for and [01;31m[Ksave[m[Ks files. If you start it from the shell, 
+[32m[K3[m[K[36m[K:[m[KIf you use your computer’s start menu, it may want to [01;31m[Ksave[m[K files in your desktop or documents directory instead. 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ find .
+.
+./.git
+./.git/branches
+./.git/COMMIT_EDITMSG
+./.git/config
+./.git/description
+./.git/HEAD
+./.git/hooks
+./.git/hooks/applypatch-msg.sample
+./.git/hooks/commit-msg.sample
+./.git/hooks/fsmonitor-watchman.sample
+./.git/hooks/post-update.sample
+./.git/hooks/pre-applypatch.sample
+./.git/hooks/pre-commit.sample
+./.git/hooks/pre-merge-commit.sample
+./.git/hooks/pre-push.sample
+./.git/hooks/pre-rebase.sample
+./.git/hooks/pre-receive.sample
+./.git/hooks/prepare-commit-msg.sample
+./.git/hooks/update.sample
+./.git/index
+./.git/info
+./.git/info/exclude
+./.git/logs
+./.git/logs/HEAD
+./.git/logs/refs
+./.git/logs/refs/heads
+./.git/logs/refs/heads/master
+./.git/objects
+./.git/objects/10
+./.git/objects/10/a4667b1d14434eacc3e35526bf5bdc0d140831
+./.git/objects/30
+./.git/objects/30/2de4d2af91a2fe49fb0f41088d1326f892c3e4
+./.git/objects/4b
+./.git/objects/4b/825dc642cb6eb9a060e54bf8d69288fbee4904
+./.git/objects/56
+./.git/objects/56/a8484169943791a46440242151d1c31b76c4a4
+./.git/objects/83
+./.git/objects/83/6e542cf2b442dbb0248005b62904d221960d24
+./.git/objects/86
+./.git/objects/86/c326431ac7840924f7d07b6fa6f9fa7464a468
+./.git/objects/98
+./.git/objects/98/a5c5fd21159dc930b1468babd57b0c1ade9057
+./.git/objects/9e
+./.git/objects/9e/57d60dd371f9874165a97e489650d96f26ce0f
+./.git/objects/ab
+./.git/objects/ab/abcd9174355b5dbc462aef0ecc2c320a774ee1
+./.git/objects/b7
+./.git/objects/b7/e56003d5cec67b7e2cf3b26e6f0af5cfc126e5
+./.git/objects/c7
+./.git/objects/c7/58ab21880521ee91bb7343694d0756a209e580
+./.git/objects/c9
+./.git/objects/c9/09f1064e12676defb3c7038fdc6c2daa55b4f3
+./.git/objects/cd
+./.git/objects/cd/ffe8957a7ebae6b71a87cb3d7b61eff8d1d22e
+./.git/objects/ce
+./.git/objects/ce/1115a2eb045310c933e2987629ec35f2fae999
+./.git/objects/d6
+./.git/objects/d6/4694b3ffda9c48581cf7ae8ccfec685ec76b32
+./.git/objects/e1
+./.git/objects/e1/714a833aa1e0c899092686641ccdb56b13b3cd
+./.git/objects/e6
+./.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+./.git/objects/e8
+./.git/objects/e8/2c3eb92aa66054373859cc3301c6cbba1e409a
+./.git/objects/eb
+./.git/objects/eb/4fa78b83341cc39135eb8f4cf66fc6bf813ef7
+./.git/objects/f1
+./.git/objects/f1/cd0dc37782d9862b0f710f874e700affd09d36
+./.git/objects/f3
+./.git/objects/f3/84fea548411cc232c79d5adbd028e14b661008
+./.git/objects/ff
+./.git/objects/ff/7acfcbe6336af3aee51b3b6ad511550f510086
+./.git/objects/ff/d2c64b3253b6aa763f82fa2a5e271805c4e340
+./.git/objects/info
+./.git/objects/pack
+./.git/refs
+./.git/refs/heads
+./.git/refs/heads/master
+./.git/refs/tags
+./all_data.txt
+./draft_copy.txt
+./length.txt
+./middle.sh
+./new_file_length.txt
+./sorted_length.txt
+./test_file_2.txt
+./thesis
+./thesis/draft.txt
+./unix_session
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ find . -type d
+.
+./.git
+./.git/branches
+./.git/hooks
+./.git/info
+./.git/logs
+./.git/logs/refs
+./.git/logs/refs/heads
+./.git/objects
+./.git/objects/10
+./.git/objects/30
+./.git/objects/4b
+./.git/objects/56
+./.git/objects/83
+./.git/objects/86
+./.git/objects/98
+./.git/objects/9e
+./.git/objects/ab
+./.git/objects/b7
+./.git/objects/c7
+./.git/objects/c9
+./.git/objects/cd
+./.git/objects/ce
+./.git/objects/d6
+./.git/objects/e1
+./.git/objects/e6
+./.git/objects/e8
+./.git/objects/eb
+./.git/objects/f1
+./.git/objects/f3
+./.git/objects/ff
+./.git/objects/info
+./.git/objects/pack
+./.git/refs
+./.git/refs/heads
+./.git/refs/tags
+./thesis
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ find . -type[Ke f
+./.git/COMMIT_EDITMSG
+./.git/config
+./.git/description
+./.git/HEAD
+./.git/hooks/applypatch-msg.sample
+./.git/hooks/commit-msg.sample
+./.git/hooks/fsmonitor-watchman.sample
+./.git/hooks/post-update.sample
+./.git/hooks/pre-applypatch.sample
+./.git/hooks/pre-commit.sample
+./.git/hooks/pre-merge-commit.sample
+./.git/hooks/pre-push.sample
+./.git/hooks/pre-rebase.sample
+./.git/hooks/pre-receive.sample
+./.git/hooks/prepare-commit-msg.sample
+./.git/hooks/update.sample
+./.git/index
+./.git/info/exclude
+./.git/logs/HEAD
+./.git/logs/refs/heads/master
+./.git/objects/10/a4667b1d14434eacc3e35526bf5bdc0d140831
+./.git/objects/30/2de4d2af91a2fe49fb0f41088d1326f892c3e4
+./.git/objects/4b/825dc642cb6eb9a060e54bf8d69288fbee4904
+./.git/objects/56/a8484169943791a46440242151d1c31b76c4a4
+./.git/objects/83/6e542cf2b442dbb0248005b62904d221960d24
+./.git/objects/86/c326431ac7840924f7d07b6fa6f9fa7464a468
+./.git/objects/98/a5c5fd21159dc930b1468babd57b0c1ade9057
+./.git/objects/9e/57d60dd371f9874165a97e489650d96f26ce0f
+./.git/objects/ab/abcd9174355b5dbc462aef0ecc2c320a774ee1
+./.git/objects/b7/e56003d5cec67b7e2cf3b26e6f0af5cfc126e5
+./.git/objects/c7/58ab21880521ee91bb7343694d0756a209e580
+./.git/objects/c9/09f1064e12676defb3c7038fdc6c2daa55b4f3
+./.git/objects/cd/ffe8957a7ebae6b71a87cb3d7b61eff8d1d22e
+./.git/objects/ce/1115a2eb045310c933e2987629ec35f2fae999
+./.git/objects/d6/4694b3ffda9c48581cf7ae8ccfec685ec76b32
+./.git/objects/e1/714a833aa1e0c899092686641ccdb56b13b3cd
+./.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+./.git/objects/e8/2c3eb92aa66054373859cc3301c6cbba1e409a
+./.git/objects/eb/4fa78b83341cc39135eb8f4cf66fc6bf813ef7
+./.git/objects/f1/cd0dc37782d9862b0f710f874e700affd09d36
+./.git/objects/f3/84fea548411cc232c79d5adbd028e14b661008
+./.git/objects/ff/7acfcbe6336af3aee51b3b6ad511550f510086
+./.git/objects/ff/d2c64b3253b6aa763f82fa2a5e271805c4e340
+./.git/refs/heads/master
+./all_data.txt
+./draft_copy.txt
+./length.txt
+./middle.sh
+./new_file_length.txt
+./sorted_length.txt
+./test_file_2.txt
+./thesis/draft.txt
+./unix_session
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ find . -name *.txt
+find: paths must precede expression: `draft_copy.txt'
+find: possible unquoted pattern after predicate `-name'?
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ find . -name "*.txt"
+./all_data.txt
+./draft_copy.txt
+./length.txt
+./new_file_length.txt
+./sorted_length.txt
+./test_file_2.txt
+./thesis/draft.txt
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m
