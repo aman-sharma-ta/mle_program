@@ -1,0 +1,6 @@
+  0 new_file_length.txt
+  3 length.txt
+  3 sorted_length.txt
+  4 draft_copy.txt
+  5 test_file_2.txt
+ 15 total

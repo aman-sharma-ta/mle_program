@@ -131,4 +131,149 @@ On branch master
 No commits yet
 
 Untracked files:
-  (use
+  (use "git add <file>..." to include in what will be committed)
+	[31mdraft_copy.txt[m
+	[31mtest_file_2.txt[m
+	[31mthesis/[m
+	[31munix_session[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git add .
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git commit -am[K[Km ""o"r"k"i"n"g" "w"i"t"h" "[C[C[C[C[C[C[C[C[C[1@w[C[C[C[C[C[C[C[C[C[C[C[C "f "i "l "e "s "[C "& "[C "d "i "r "e "c "t "o "r "y "[C "d "o "n "e "[1P"
+[master (root-commit) ababcd9] working with files & directory done
+ 4 files changed, 142 insertions(+)
+ create mode 100644 draft_copy.txt
+ create mode 100644 test_file_2.txt
+ create mode 100644 thesis/draft.txt
+ create mode 100644 unix_session
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ gti [K[K[Kit status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   unix_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git log
+[?1h=[33mcommit ababcd9174355b5dbc462aef0ecc2c320a774ee1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Aman <aman.sharma@tigeranalytics.com>[m
+Date:   Thu Mar 24 16:50:34 2022 +0530[m
+[m
+    working with files & directory done[m
+[K[?1l>]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ ls *.txt
+[0m[01;32mdraft_copy.txt[0m  [01;32mtest_file_2.txt[0m
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ wc draft_copy.txt 
+  4  72 412 draft_copy.txt
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ wc *.txt[C-*.txtl*.txt *.txt[C[C[C[C[C > length.txt
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat length.txt 
+  4 draft_copy.txt
+  0 test_file_2.txt
+  4 total
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ sort length.txt 
+  0 test_file_2.txt
+  4 draft_copy.txt
+  4 total
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ sort -n length.txt 
+  0 test_file_2.txt
+  4 draft_copy.txt
+  4 total
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ head length.txt 
+  4 draft_copy.txt
+  0 test_file_2.txt
+  4 total
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ head length.txt [1@1[1@ 
+head: cannot open '1' for reading: No such file or directory
+==> length.txt <==
+  4 draft_copy.txt
+  0 test_file_2.txt
+  4 total
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ head 1 length.txt [1@-[1@n[1@ 
+  4 draft_copy.txt
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ sort -n length.txt > sorted_length.txt
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat sorted_length.txt 
+  0 test_file_2.txt
+  4 draft_copy.txt
+  4 total
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ echo hello
+hello
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ echo hello > t[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;32mdraft_copy.txt[0m  [01;32mlength.txt[0m  [01;32msorted_length.txt[0m  [01;32mtest_file_2.txt[0m  [34;42mthesis[0m  [01;32munix_session[0m
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ echo hello hi > text[K[Kst_file_2.txt 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ exho [K[K[K[Kchio [K[K[Ko destroy the creation >> text[K[Kst_file_2.txt 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ ls
+[0m[01;32mdraft_copy.txt[0m  [01;32mlength.txt[0m  [01;32msorted_length.txt[0m  [01;32mtest_file_2.txt[0m  [34;42mthesis[0m  [01;32munix_session[0m
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat test
+cat: test: No such file or directory
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat test_file_2.txt 
+hello hi
+destroy the creation
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ head -n 3 sorted [K_length.txt >> test_file_2.txt 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat tes
+cat: tes: No such file or directory
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat test_file_2.txt 
+hello hi
+destroy the creation
+  0 test_file_2.txt
+  4 draft_copy.txt
+  4 total
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ gti [K[K[Kit [K staust[K[K[Ktus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   test_file_2.txt[m
+	[31mmodified:   unix_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlength.txt[m
+	[31msorted_length.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ gti [K[K[Kit add .
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   length.txt[m
+	[32mnew file:   sorted_length.txt[m
+	[32mmodified:   test_file_2.txt[m
+	[32mmodified:   unix_session[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   unix_session[m
+
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ sort -n length.txt | head -n 1 
+  0 test_file_2.txt
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ wc  -[K[K-l * [K.txt }[K| sort -n
+  3 length.txt
+  3 sorted_length.txt
+  4 draft_copy.txt
+  5 test_file_2.txt
+ 15 total
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ wc -l *.txt | sort -n | > ne_file.txt
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ ls
+[0m[01;32mdraft_copy.txt[0m  [01;32mlength.txt[0m  [01;32mne_file.txt[0m  [01;32msorted_length.txt[0m  [01;32mtest_file_2.txt[0m  [34;42mthesis[0m  [01;32munix_session[0m
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ rm [K[K[Kmv ner[K_file.txt new_fiel[K[K[Kile [K_length.txt
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat new_file_length.txt 
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat new_file_length.txt mv ne_file.txt new_file_length.txtls[Kwc -l *.txt | sort -n | > ne_file.txtls[Kwc -l *.txt | sort -n | > ne_file.txt[1Pfile.txt[1Pile.txt[1Ple.txt[1Pe.txt[1P.txt[1Ptxt[1Pxt[1Pt[Kw_file_length.txt [C[1P[1P
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat ne
+cat: ne: No such file or directory
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ cat newc -l *.txt | sort -n > new_file_length.txt cat ne[Kw_file_length.txt 
+  0 new_file_length.txt
+  3 length.txt
+  3 sorted_length.txt
+  4 draft_copy.txt
+  5 test_file_2.txt
+ 15 total
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:

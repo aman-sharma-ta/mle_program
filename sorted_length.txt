@@ -1,5 +1,3 @@
-hello hi
-destroy the creation
   0 test_file_2.txt
   4 draft_copy.txt
   4 total
