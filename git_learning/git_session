@@ -97,4 +97,43 @@ warning: adding embedded git repository: git_learning/mylibgit
 [33mhint: 	git rm --cached git_learning/mylibgit[m
 [33mhint: [m
 [33mhint: See "git help submodule" for more information.[m
-]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_p
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git add .
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git commit -m 'git getting started'
+[main e6a3261] git getting started
+ 2 files changed, 101 insertions(+)
+ create mode 100644 git_learning/git_session
+ create mode 160000 git_learning/mylibgit
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git push main origin
+error: src refspec origin does not match any
+[31merror: failed to push some refs to 'main'
+[m]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git push main origin[1@o[1@r[1@i[1@g[1@i[1@n[1P[1P[1P[1P origin[1Porigin[1Prigin[1Pigin[1Pgin[1Pin[1Pn[K main
+Username for 'https://github.com': aman-sharma-tiger
+Password for 'https://aman-sharma-tiger@github.com': 
+To https://github.com/aman-sharma-tiger/mle_program.git
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'https://github.com/aman-sharma-tiger/mle_program.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git rm --cached git_learning/mylibgit
+rm 'git_learning/mylibgit'
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mdeleted:    git_learning/mylibgit[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes
