@@ -136,4 +136,55 @@ Changes to be committed:
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   git_learning/git_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mgit_learning/mylibgit/[m
+
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git add .
+warning: adding embedded git repository: git_learning/mylibgit
+[33mhint: You've added another git repository inside your current repository.[m
+[33mhint: Clones of the outer repository will not contain the contents of[m
+[33mhint: the embedded repository and will not know how to obtain it.[m
+[33mhint: If you meant to add a submodule, use:[m
+[33mhint: [m
+[33mhint: 	git submodule add <url> git_learning/mylibgit[m
+[33mhint: [m
+[33mhint: If you added this path by mistake, you can remove it from the[m
+[33mhint: index with:[m
+[33mhint: [m
+[33mhint: 	git rm --cached git_learning/mylibgit[m
+[33mhint: [m
+[33mhint: See "git help submodule" for more information.[m
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git rm --cached git_learning/mylibgit
+rm 'git_learning/mylibgit'
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ gti[K[Kit -m [K[K[K[K commit -m 'done'
+[main 0737b4c] done
+ 2 files changed, 40 insertions(+), 2 deletions(-)
+ delete mode 160000 git_learning/mylibgit
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   git_learning/git_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mgit_learning/mylibgit/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31m
