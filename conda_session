@@ -1,0 +1,22 @@
+Script started on 2022-03-25 17:24:14+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="168" LINES="44"]
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   git_learning/git_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mconda_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git commit -m 'conda session begin'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git res

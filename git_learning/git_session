@@ -532,4 +532,69 @@ Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing obje
 Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 11.98 KiB | 5.99 MiB/s, done.
 Total 4 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
-To https://github.com/aman-sharma-tiger/mle_pro
+To https://github.com/aman-sharma-tiger/mle_program.git
+   c522f81..a7e3d09  main -> main
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ clear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ exit
+exit
+There are stopped jobs.
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git add .
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git commit -m 'done with the git sessions'
+[main 0b55adc] done with the git sessions
+ 1 file changed, 39 insertions(+), 1 deletion(-)
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   git_learning/git_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git push origin main
+Username for 'https://github.com': aman-sharma-tiger
+Password for 'https://aman-sharma-tiger@github.com': 
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 910 bytes | 910.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/aman-sharma-tiger/mle_program.git
+   a7e3d09..0b55adc  main -> main
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   git_learning/git_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git[K[K[Kclear
+[H[2J[3J]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ script conda_session
+Script started, file is conda_session
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   git_learning/git_session[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mconda_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;aman-sharma@TIGER02413: /mnt/d/mle_program[01;32maman-sharma@TIGER02413[00m:[01;34m/mnt/d/mle_program[00m$ git commit -m 'conda session begin'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <fi
